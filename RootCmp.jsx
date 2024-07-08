@@ -1,3 +1,4 @@
+import { ContactIndex } from './pages/Contactindex.jsx'
 import { Home } from './pages/Home.jsx'
 
 const Router = ReactRouterDOM.HashRouter
@@ -9,6 +10,7 @@ export function RootCmp() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/contact/index" element={<ContactIndex />} />
         </Routes>
       </Router>
     </section>

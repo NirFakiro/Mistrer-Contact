@@ -1,5 +1,5 @@
 import { ContactDetails } from './cmps/ContactDetails.jsx'
-import { Footer } from './pages/Footer.jsx'
+import { Footer } from './cmps/Footer.jsx'
 import { Home } from './pages/Home.jsx'
 
 const Router = ReactRouterDOM.HashRouter

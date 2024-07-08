@@ -7,16 +7,16 @@ const Router = ReactRouterDOM.HashRouter
 const { Routes, Route } = ReactRouterDOM
 
 export function RootCmp() {
-    return (
-        <section>
-            <Router>
-                <Routes>
-                    <Route path='/' element={<Home />} />
-                    <Route path='/contact/details' element={<ContactDetails />} />
-                    <Route path='/contact/index' element={<ContactIndex />} />
-                </Routes>
-                <Footer />
-            </Router>
-        </section>
-    )
+  return (
+    <section>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact/details" element={<ContactDetails />} />
+          <Route path="/contact/index" element={<ContactIndex />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </section>
+  )
 }

@@ -1,7 +1,6 @@
+import { ContactList } from '../cmps/ContactList'
+
 export function ContactIndex() {
-  return (
-    <div>
-      <h1>Contact index</h1>
-    </div>
-  )
+  const contacts = contactService.getContacts()
+  return <main>{<ContactList contacts={contacts} />}</main>
 }

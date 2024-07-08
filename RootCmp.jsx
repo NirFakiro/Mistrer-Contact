@@ -1,3 +1,4 @@
+import { ContactDetails } from './cmps/ContactDetails.jsx'
 import { ContactIndex } from './pages/Contactindex.jsx'
 import { Home } from './pages/Home.jsx'
 
@@ -10,6 +11,7 @@ export function RootCmp() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/contact/details" element={<ContactDetails />} />
           <Route path="/contact/index" element={<ContactIndex />} />
         </Routes>
       </Router>
